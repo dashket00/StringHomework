@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Main {
+public class Primer1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         String shortestString = "";
         String longestString = "";
 
-        for (int i = 0; i < 3; i++) {
-            System.out.print("Введите строку: ");
+        for (int i = 1; i <= 3; i++) {
+            System.out.print("Введите строку " + i + " : ");
             String input = scanner.nextLine();
 
             if (shortestString.isEmpty() || input.length() < shortestString.length()) {
